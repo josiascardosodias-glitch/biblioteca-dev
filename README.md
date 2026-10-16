@@ -2,7 +2,7 @@
 
 Minha biblioteca pessoal de estudos em programação. Aqui eu guardo tudo o que aprendo ao longo da carreira (exercícios, desafios, projetos e materiais da faculdade), organizado por linguagem, para consultar, relembrar e acompanhar a minha evolução.
 
-> Sou estudante de **Sistemas de Informação** e este repositório cresce junto comigo.
+> Atualmente cursando **Sistemas de Informação**.
 
 ---
 
@@ -78,30 +78,6 @@ biblioteca-dev/
 
 - `html-css/exercicios/curso-em-video/`: exercícios do Curso em Vídeo
 - `html-css/desafios/curso-em-video/modulo-1/`: desafios do módulo 1
-
----
-
-## ▶️ Como executar
-
-| Linguagem | Comando |
-|---|---|
-| Python | `python3 "arquivo.py"` |
-| Java | `javac Arquivo.java && java Arquivo` |
-| C | `gcc arquivo.c -o arquivo && ./arquivo` |
-| C + raylib (Tetris) | `gcc tetris-v0.2.c -o tetris -lraylib -lm && ./tetris` |
-| JavaScript | `node script.js` ou abrir o `index.html` no navegador |
-| HTML/CSS | abrir o `index.html` no navegador |
-
----
-
-## ➕ Como adicionar conteúdo
-
-1. Escolha a pasta da linguagem (ou crie uma nova, ex.: `go/`, `sql/`).
-2. Coloque o conteúdo no tipo certo (`exercicios/`, `desafios/`, `projetos/`...).
-3. Use nomes em `kebab-case`, sem acentos nem espaços (ex.: `calculadora-imc`).
-4. Atualize este README na seção da linguagem.
-
-As regras completas de padronização estão em [`CLAUDE.md`](CLAUDE.md).
 
 ---
 
