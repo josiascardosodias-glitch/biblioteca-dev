@@ -1,0 +1,25 @@
+# Saídas de compilação
+*.class
+*.o
+*.out
+*.exe
+out/
+output/
+build/
+bin/
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.iml
+*.code-workspace
+
+# Dependências e ambientes
+node_modules/
+venv/
+.venv/
+__pycache__/
+
+# Sistema
+.DS_Store
+Thumbs.db

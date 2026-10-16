@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(11, 32, 218);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1, p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+#bloco {
+    height: 350px;
+    width: 500px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 20px;
+}
+
+#foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+#horas {
+    font-size: 25px;
+    text-decoration: underline;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+/* Garantir tamanho consistente da imagem para alinhamento igual em manhã/tarde/noite */
+#foto img, #imagem {
+    max-width: 80%;
+    height: auto;
+    display: block;
+}

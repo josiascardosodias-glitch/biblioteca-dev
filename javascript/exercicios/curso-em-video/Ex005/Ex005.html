@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        body {
+            background-color: lightblue;
+            font: 20px Arial;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<body>
+    <h1>Utilizando o DOM</h1>
+    <p>Vamos aprender a tilizar o <stong>DOM</stong></p>
+    <h2>Coisa aleatória:</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit ab, eligendi debitis fugit sint culpa! Quis, quod. Dolorum hic porro illum quas dolore odit aut maiores quod omnis! Aperiam, doloremque.</p>
+<script>
+    var p1 = document.getElementsByTagName("p")[0];
+    p1.style.backgroundColor = 'blue';
+    var t1 = document.getElementsByTagName("h1")[0];
+    t1.style.textAlign = 'center';
+    t1.style.color = 'brown';
+    var p2 = document.getElementsByTagName('p')[1];
+    p2.style.fontSize = '25px';
+    p2.style.backgroundColor = 'white';
+</script>
+</body>
+</html>

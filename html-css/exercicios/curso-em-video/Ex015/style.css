@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+h1 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+h2 {
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+p {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+a {
+    font-size: 25px;
+    text-decoration: none;
+    color: orange;
+}
+body {
+    background-color: lightgray;
+    margin: 40px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+}

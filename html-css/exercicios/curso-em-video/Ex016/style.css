@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body {
+    background: linear-gradient(45deg, #FF0064, #FF00D2, #7410FF, #FF4100);
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 50px;
+}
+p {
+    text-align: justify;
+}
